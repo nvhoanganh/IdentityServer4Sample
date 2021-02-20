@@ -34,7 +34,6 @@ namespace IdentityS4Test
             }
 
             app.UseRouting();
-
             app.UseIdentityServer();
 
             app.UseEndpoints(endpoints =>
